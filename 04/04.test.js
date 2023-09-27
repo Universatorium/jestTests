@@ -2,7 +2,7 @@
 const bestesBrot = require('./04'); 
 
 // Definiert den Test mit einer Beschreibung und einer Testfunktion.
-test('Das leckereste Brot ist Vollkorn', () => {
+test('Das leckerste Brot ist Vollkorn', () => {
     
     // Verwendet die `expect` Funktion von Jest, um den tatsächlichen Wert von `bestesBrot()` zu überprüfen.
     // `.not.toBe` prüft, dass der tatsächliche Wert nicht dem angegebenen Wert entspricht.

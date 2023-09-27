@@ -1,8 +1,8 @@
 const square = require('./square');
 
 test('should square the number correctly', () => {
-    const result = square(...);
-    if (result !== ...) {
+    const result = square(4);
+    if (result !== 16) {
         throw new Error(`Expected 16, but got ${result}`);
     }
 });
